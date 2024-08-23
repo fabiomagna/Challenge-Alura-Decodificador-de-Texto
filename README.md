@@ -1,4 +1,3 @@
-```
 # Challenge-Alura-Decodificador-de-Texto
 Projeto de finalização do curso Oracle Next One
 
@@ -32,7 +31,6 @@ Para isso somente é necessário clicar na lupa no bloco a direita, caso não ex
 
 ##Feito por:
 ###Fabio Maganha Moreira | insta: @im.fabiio
-```
 
 
 
