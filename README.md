@@ -7,7 +7,7 @@ Projeto de finalização do curso Oracle Next One
 * Função 1: Criptografar, o site é capaz de criptografar qualquer texto inserido! Nota-se que é necessário inserir o texto somente usando letras minúsculas e sem acento!
 Ao passar o mouse sobre o botão de criptografar será aplicado um zoom a ele assim como também será desfocado o botão descriptografar.
 ![image](https://github.com/user-attachments/assets/b55cd476-ece5-40a4-bc11-bd6cf8c5d2a4)
-*Ao clicar sobre ele o texto inserido no campo digite aqui será criptografado e mostrado na bloco ao lado!
+* Ao clicar sobre ele o texto inserido no campo digite aqui será criptografado e mostrado na bloco ao lado!
 ![image](https://github.com/user-attachments/assets/578b29ea-8fda-4b87-828e-c185e3e12161)
 Texto criptografado:
 ![image](https://github.com/user-attachments/assets/60d83d26-4c8b-4a6d-bbfd-99a2d7a8aa7b)
