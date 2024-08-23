@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href = "./Styles/reset.css">
+    <link rel="stylesheet" href="./Styles/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1 class="alura">a<br></h1>
+    <span class="informativo-apresentacao">Apenas letras minúsculas e sem acento</span> 
+    <textarea class="texto">digite seu texto</textarea>
+    <div class = 'apresentacao'> 
+        <img src="" alt="" class="atencao">
+        <button class="criptografar-apresentacao" onclick="criptografar()" onmouseover="borrarDesc()" onmouseout="focarDesc()">Criptografar</button>
+        <button class="descriptografar-apresentacao" onclick = 'descriptografar()' onmouseover="borrarCript()" onmouseout="focarCript()">Descriptografar</button>
+    </div>
+    <div class ='mostrar'>
+        <p class = 'mostrar-texto'></p>
+        <img src="./assets/procurando.png" alt="duas-pessoas-procurando-algo" class="procurando-mostrar">
+        <strong class="nenhuma-mostrar">Nenhuma mensagem encontrada</strong>
+        <span class="digite-o-texto-mostrar">Digite o texto que você deseja criptografar ou descriptografar</span>
+        <button class = "copiar-mostrar" onclick = copiar()> <img src="./assets/lupa.png" alt="icone-lupa" class = 'icone-lupa'></button>   
+    </div>
+    
+</body>
+</html>
