@@ -1,5 +1,9 @@
 function criptografar(){
     texto = document.querySelector('.texto').value;
+    if(texto.length <= 0){
+        alert('Por favor insira um texto antes de criptografar');
+        document.querySelector('.texto').value = 'digite seu texto';
+    }else{
     let novoTexto = '';
     for (var i = 0;i<texto.length;i++){
         if (texto.charAt(i) == 'a'){
@@ -21,6 +25,7 @@ function criptografar(){
     document.querySelector('.nenhuma-mostrar').style.visibility = 'hidden';
     document.querySelector('.digite-o-texto-mostrar').style.visibility = 'hidden';
     document.querySelector('.procurando-mostrar').style.visibility = 'hidden';
+    }
 }
 
 function descriptografar(){
